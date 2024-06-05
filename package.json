@@ -1,0 +1,19 @@
+{
+  "name": "mobx-benchmark",
+  "version": "1.0.0",
+  "description": "Scripts to benchmark mobx",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "bench": "npm run bench --workspace=runner"
+  },
+  "author": "Ivan Shabanov <krtninja.work@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "./base",
+    "./make-observable",
+    "./legacy-decorators",
+    "./decorators",
+    "./runner"
+  ]
+}
